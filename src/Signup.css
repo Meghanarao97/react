@@ -1,0 +1,119 @@
+.signupPage {
+  min-height: 100vh;
+
+  background: #22c1c3;
+  background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);
+  background: linear-gradient(to right, #fdbb2d, #22c1c3);
+
+  display: flex;
+}
+.signupContainer {
+  background-color: #ffff;
+  position: relative;
+  margin: auto;
+  border-radius: 5px;
+  padding: 20px 15px 40px 15px;
+  width: 400px;
+}
+
+.firstName {
+  font-size: 14px;
+  height: 20px;
+  padding: 6px 8px;
+  direction: ltr;
+  text-align: left;
+  margin: 2px;
+  margin-bottom: 10px;
+}
+.lastName {
+  font-size: 14px;
+  height: 20px;
+  padding: 6px 8px;
+  direction: ltr;
+  text-align: left;
+
+  margin: 2px;
+}
+
+/* .emailAddress {
+  font-size: 14px;
+  height: 20px;
+  padding: 7px 9px;
+  direction: ltr;
+  text-align: left;
+
+  margin: 1px 1px 10px 2px;
+  width: 372px;
+  margin-bottom: 10px;
+} */
+.passWord {
+  font-size: 14px;
+  height: 20px;
+  padding: 6px 8px;
+  direction: ltr;
+  text-align: left;
+
+  margin: 2px;
+}
+.conFirm {
+  font-size: 14px;
+  height: 20px;
+  padding: 6px 8px;
+  direction: ltr;
+  text-align: left;
+
+  margin: 2px;
+}
+.nextButton {
+  width: 100px;
+  height: 35px;
+  background-color: blue;
+  border-color: blue;
+  position: relative;
+  margin: 10px 144px;
+}
+.smallLetter {
+  font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+  color: #5f6368;
+  font-size: 12px;
+  white-space: normal;
+  line-height: 1.4286;
+  padding: 3px;
+}
+.checkContainer {
+  padding: 0;
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+}
+.checkBox {
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: inherit;
+  display: flex;
+  flex: none;
+  height: 20px;
+  justify-content: center;
+  position: relative;
+  width: 18px;
+}
+.showPassword {
+  padding: 0;
+  box-sizing: inherit;
+  align-items: flex-start;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 16px;
+  min-width: 0;
+  width: 100%;
+}
+.fbButton {
+  width: 172px;
+  height: 35px;
+  background-color: green;
+  border-color: green;
+  position: relative;
+  margin: 8px 109px;
+}

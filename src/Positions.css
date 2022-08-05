@@ -1,0 +1,23 @@
+body {
+  padding: 100px;
+}
+.parentDiv {
+  background-color: wheat;
+  height: 100vh;
+}
+.staticDiv {
+  background-color: green;
+  top: 100px;
+}
+.relativeDiv {
+  background-color: red;
+}
+.fixedDiv {
+  background-color: aqua;
+}
+.absoluteDiv {
+  background-color: blueviolet;
+}
+.stickyDiv {
+  background-color: hotpink;
+}

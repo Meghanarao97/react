@@ -1,0 +1,29 @@
+LIFECYCLE METHODS:
+ Three methods:
+ Mounting--- The component is ready to mount in the brownser dom. this phase covers the initialization from 
+ 1. constructor--for state declararyion
+ 2. getderivedstatesfromprops---rarely used lifecycle method
+ 3.render---each updation, dom will render
+ 4.componentdidmount---intial dom 
+
+ updating--- 
+ 1. getderivedstatesfromprops
+ 2. shouldComponentUpdate 
+ 3. getSnapshotBeforeUpdate
+ 4. componentDidUpdate
+
+
+ unmounting--- 
+
+
+
+ async
+ await
+ promise
+ ternry condition
+ for loop
+ map method
+ forEach---3 [itemValue, itemIndex, arrayItself]
+ diff btwn map method and foreach
+
+Axios
